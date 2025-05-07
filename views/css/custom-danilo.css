@@ -1,0 +1,12 @@
+/* Customização do botao */
+.card-hover {
+    transition: all 0.3s ease;
+    border-radius: 0.5rem;
+    will-change: transform, box-shadow, background-color;
+}
+/* Customização do botao */
+.card-hover:hover {
+    transform: scale(1.03);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    background-color: #f1f5fb;
+}
